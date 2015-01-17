@@ -61,6 +61,7 @@ $canvas.mousedown(function(e) {
 	}
 }).mouseup (function () {
 	mousedown = false;
+}).mouseleave(function() {
+	$canvas.mouseup();
 });
-
 
